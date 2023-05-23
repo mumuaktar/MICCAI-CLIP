@@ -8,4 +8,5 @@ Assessment of collateral circulation in ischemic stroke, which can identify pati
 
 
 If you use this code, please cit the paper:
+
 Aktar, M., Xiao, Y., Tampieri, D., Rivaz, H., Kersten-Oertel, M. (2020). A Radiomics-Based Machine Learning Approach to Assess Collateral Circulation in Ischemic Stroke on Non-contrast Computed Tomography. In: , et al. Multimodal Learning for Clinical Decision Support and Clinical Image-Based Procedures. CLIP ML-CDS 2020 2020. Lecture Notes in Computer Science(), vol 12445. Springer, Cham. https://doi.org/10.1007/978-3-030-60946-7_3
