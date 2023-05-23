@@ -1,3 +1,9 @@
+%%%%%%%%%%%prepare volume function and radiomic feature extraction codes
+%%%%%%%%%%%are from this link: https://github.com/mvallieres/radiomics
+%%%%A package providing MATLAB programming tools for radiomics analysis.
+
+
+
 clc;clear;
 NUM=64;
 fileformat='.nii.gz';
@@ -21,13 +27,7 @@ for num=35:35
      bb1=right;
      d1=abs((aa1-mean(aa1(:)))/std(aa1(:)));
      d2=abs((bb1-mean(bb1(:)))/std(bb1(:)));
-% % for i = 1:size(aa1, 1) - 2 
-% %     for j = 1:size(aa1, 2) - 2 
-% %         for k=1: size(aa1,3)-2
-% %              Gx = abs(input_image()); 
-% %              Gy = sum(sum(My.*input_image(i:i+2, j:j+2))); 
-% 
-% 
+
 
      [ROIonly,levels] = prepareVolume(d1,mask,'Other',4,3.27,1,5,'Matrix','Uniform',32);
  
